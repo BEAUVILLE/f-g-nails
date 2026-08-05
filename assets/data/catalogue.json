@@ -1,0 +1,40 @@
+{
+  "updated_at": "2026-08-05",
+  "business": {
+    "name": "FG NAILS",
+    "phone": "+221781662359",
+    "city": "Saly",
+    "market_url": "https://fg-nails.digiylyfe.com/#boutique"
+  },
+  "services": [
+    {
+      "id": "onglerie",
+      "name": "Onglerie",
+      "icon": "💅",
+      "description": "Pose, entretien et beauté des ongles. Le détail des formules se confirme directement avec Fama.",
+      "active": true
+    },
+    {
+      "id": "massage-engraissement",
+      "name": "Massage d’engraissement",
+      "icon": "✦",
+      "description": "Prestation de bien-être réalisée sur rendez-vous. Demandez le protocole et les précautions avant la séance.",
+      "active": true
+    },
+    {
+      "id": "lipocavitation",
+      "name": "Lipocavitation",
+      "icon": "◉",
+      "description": "Soin esthétique de la silhouette. Les résultats varient selon les personnes et ne remplacent pas un avis médical.",
+      "active": true
+    },
+    {
+      "id": "soins-esthetiques",
+      "name": "Soins esthétiques",
+      "icon": "♡",
+      "description": "Beauté et bien-être, avec conseils adaptés et réservation directe.",
+      "active": true
+    }
+  ],
+  "products": []
+}
