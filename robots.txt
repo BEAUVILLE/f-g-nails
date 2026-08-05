@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fg-nails.digiylyfe.com/sitemap.xml
