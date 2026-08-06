@@ -1,40 +1,68 @@
 {
-  "updated_at": "2026-08-05",
+  "updated_at": "2026-08-06",
   "business": {
     "name": "FG NAILS",
-    "phone": "+221781662359",
+    "phone": "+221780127062",
     "city": "Saly",
-    "market_url": "https://fg-nails.digiylyfe.com/#boutique"
+    "market_url": "https://f-g-nails.digiylyfe.com/#boutique"
   },
   "services": [
     {
       "id": "onglerie",
       "name": "Onglerie",
       "icon": "💅",
-      "description": "Pose, entretien et beauté des ongles. Le détail des formules se confirme directement avec Fama.",
+      "description": "Pose, entretien et beauté des ongles. Les formules se confirment directement avec FG NAILS.",
       "active": true
     },
     {
-      "id": "massage-engraissement",
-      "name": "Massage d’engraissement",
-      "icon": "✦",
-      "description": "Prestation de bien-être réalisée sur rendez-vous. Demandez le protocole et les précautions avant la séance.",
+      "id": "massage-modelant",
+      "name": "Massage modelant",
+      "icon": "🌿",
+      "description": "Prestation de bien-être réalisée sur rendez-vous.",
       "active": true
     },
     {
-      "id": "lipocavitation",
-      "name": "Lipocavitation",
+      "id": "lipocavitation-ventre",
+      "name": "Lipocavitation ventre",
       "icon": "◉",
-      "description": "Soin esthétique de la silhouette. Les résultats varient selon les personnes et ne remplacent pas un avis médical.",
+      "description": "Soin esthétique ciblé sur le ventre. Les résultats varient selon les personnes.",
       "active": true
     },
     {
       "id": "soins-esthetiques",
-      "name": "Soins esthétiques",
-      "icon": "♡",
-      "description": "Beauté et bien-être, avec conseils adaptés et réservation directe.",
+      "name": "Soins de beauté",
+      "icon": "✨",
+      "description": "Beauté et bien-être avec réservation directe.",
       "active": true
     }
   ],
-  "products": []
+  "products": [
+    {
+      "id": "pommade-karite-avocat",
+      "name": "Pommade au karité et à l’huile d’avocat",
+      "category": "Soins du corps",
+      "description": "Produit présenté par FG NAILS. Composition, précautions, disponibilité et prix à confirmer directement avant utilisation.",
+      "price": "Prix sur demande",
+      "image": "https://drive.google.com/thumbnail?id=14wCs2xusATgZFhkoRT2LVm5uFf2X4KlC&sz=w800",
+      "active": true
+    },
+    {
+      "id": "pommade-karite-moringa",
+      "name": "Pommade au karité et au moringa",
+      "category": "Soins du corps",
+      "description": "Produit présenté par FG NAILS. Composition, précautions, disponibilité et prix à confirmer directement avant utilisation.",
+      "price": "Prix sur demande",
+      "image": "https://drive.google.com/thumbnail?id=1bw41ro5Ksf4nAdYHSabij20s0o0nQxEq&sz=w800",
+      "active": true
+    },
+    {
+      "id": "pommade-karite-curcuma",
+      "name": "Pommade au karité et au curcuma",
+      "category": "Soins du corps",
+      "description": "Produit présenté par FG NAILS. Composition, précautions, disponibilité et prix à confirmer directement avant utilisation.",
+      "price": "Prix sur demande",
+      "image": "https://drive.google.com/thumbnail?id=1GfTTk6DfhCtrOvnxe-MPk-Cflp2YqU_X&sz=w800",
+      "active": true
+    }
+  ]
 }
