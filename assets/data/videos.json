@@ -1,4 +1,60 @@
 {
-  "updated_at": "2026-08-05",
-  "videos": []
+  "updated_at": "2026-08-06",
+  "policy": "Seules les réalisations originales FG NAILS sont publiées. Les contenus extérieurs sont écartés. Les médias en attente de montage ou d’autorisation restent inactifs.",
+  "videos": [
+    {
+      "id": "soin-levres-fg-nails",
+      "title": "Soin des lèvres chez FG NAILS",
+      "description": "Démonstration réalisée dans l’espace FG NAILS à Saly.",
+      "driveUrl": "https://drive.google.com/file/d/1mMsUbtyyvNbZyQ_pG-uxFh2fDmDPdvQr/view?usp=sharing",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1mMsUbtyyvNbZyQ_pG-uxFh2fDmDPdvQr&sz=w800",
+      "category": "Soins esthétiques",
+      "active": true
+    },
+    {
+      "id": "onglerie-fleurs-fg-nails",
+      "title": "Résultat onglerie — décoration florale",
+      "description": "Présentation courte d’une réalisation onglerie FG NAILS.",
+      "driveUrl": "https://drive.google.com/file/d/1hdLKDCt920F16aT0hJE9rsA2oNnz353Q/view?usp=sharing",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1hdLKDCt920F16aT0hJE9rsA2oNnz353Q&sz=w800",
+      "category": "Onglerie",
+      "active": true
+    },
+    {
+      "id": "soin-dos-fg-nails",
+      "title": "Soin silhouette — séance sur le dos",
+      "description": "Séance esthétique réalisée par FG NAILS. Les résultats varient selon les personnes.",
+      "driveUrl": "https://drive.google.com/file/d/1QBpIFbFsiVAfjaEpLP0DO7idGm-7LEOy/view?usp=sharing",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1QBpIFbFsiVAfjaEpLP0DO7idGm-7LEOy&sz=w800",
+      "category": "Soin silhouette",
+      "active": true
+    },
+    {
+      "id": "soin-visage-fg-nails",
+      "title": "Soin complet du visage",
+      "description": "Vidéo longue conservée en attente d’un montage court professionnel.",
+      "driveUrl": "https://drive.google.com/file/d/1kB89M8H-aKz7jmSNDHGkAjlBQiiuJkfg/view?usp=sharing",
+      "category": "Soins esthétiques",
+      "active": false,
+      "status": "montage requis"
+    },
+    {
+      "id": "pedicure-fg-nails",
+      "title": "Pédicure et soin des pieds",
+      "description": "Contenu original conservé en attente de nettoyage et de coupe.",
+      "driveUrl": "https://drive.google.com/file/d/1bv3Xu2_ehITv2-ekct8lKduh5k3T8ji-/view?usp=sharing",
+      "category": "Pédicure",
+      "active": false,
+      "status": "montage requis"
+    },
+    {
+      "id": "soin-ventre-fg-nails",
+      "title": "Soin silhouette — séance sur le ventre",
+      "description": "Publication suspendue jusqu’à confirmation de l’autorisation de la cliente visible.",
+      "driveUrl": "https://drive.google.com/file/d/1S28CTka6Ts5kb08pRkT0DohizcDdaB4b/view?usp=sharing",
+      "category": "Soin silhouette",
+      "active": false,
+      "status": "autorisation cliente requise"
+    }
+  ]
 }
