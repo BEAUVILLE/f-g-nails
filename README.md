@@ -1,41 +1,38 @@
-# FG NAILS — Pack GitHub Pages DIGIYLYFE
+# FG NAILS — Fiche professionnelle DIGIYLYFE
 
-Site professionnel mobile-first pour FG NAILS à Saly.
+Site mobile-first de **FG NAILS**, Résidence Nafil à Saly.
 
-## Contenu
-- `index.html` : fiche publique + boutique MARKET + vidéos Drive
-- `assets/data/catalogue.json` : prestations et produits
-- `assets/data/videos.json` : liens des vidéos Google Drive
-- `integrations/market-card.html` : cartouche à intégrer dans DIGIY MARKET
-- `integrations/mon-commerce-config.json` : configuration MON COMMERCE
-- `CNAME` : `fg-nails.digiylyfe.com`
+## Adresse publique
+- `https://f-g-nails.digiylyfe.com/`
+- WhatsApp direct : `+221 78 012 70 62`
+- 0 % de commission DIGIYLYFE
 
-## Ajouter un produit
-Ouvrir `assets/data/catalogue.json`, puis ajouter un objet dans `products` :
-```json
-{
-  "id": "gel-intime-01",
-  "name": "Nom exact du produit",
-  "category": "Hygiène femme",
-  "description": "Description conforme à l’étiquette du fabricant.",
-  "price": "5 000 FCFA",
-  "image": "assets/images/nom-photo.webp",
-  "active": true
-}
-```
+## Médias publiés — sélection du 6 août 2026
+Trois réalisations originales sont visibles sur la fiche, sans lecture automatique :
+- soin des lèvres ;
+- résultat onglerie à décoration florale ;
+- soin silhouette réalisé sur le dos.
 
-## Ajouter une vidéo Drive
-Dans `assets/data/videos.json` :
-```json
-{
-  "title": "Présentation du soin",
-  "description": "Fama explique la prestation.",
-  "driveUrl": "https://drive.google.com/file/d/ID/view",
-  "active": true
-}
-```
+Les vidéos et leurs aperçus restent hébergés sur Google Drive afin de protéger la bande passante du dépôt et du site. Les liens contrôlés sont enregistrés dans `assets/data/videos.json`.
 
-Les vidéos ne se lancent pas automatiquement : le client clique et ouvre Drive. Cela économise la bande passante.
+## Médias conservés mais non publiés
+- soin complet du visage : montage court requis ;
+- pédicure : nettoyage et coupe requis ;
+- soin ventre : autorisation de la cliente requise.
+
+## Produits publiés
+- pommade karité & avocat ;
+- pommade karité & moringa ;
+- pommade karité & curcuma.
+
+La disponibilité, la composition, les précautions et le prix sont confirmés directement par FG NAILS sur WhatsApp. Aucune promesse médicale n’est publiée.
+
+## Fichiers utiles
+- `assets/data/catalogue.json` : prestations et produits actifs ;
+- `assets/data/videos.json` : sélection vidéo et statuts ;
+- `assets/js/fg-media.js` : galerie, boutique et traductions en 7 langues ;
+- `assets/js/fg-lipo-ventre.js` : correction métier et chargement de la galerie ;
+- `CNAME` : `f-g-nails.digiylyfe.com`.
 
 ## Doctrine
-Facebook et TikTok diffusent. Cette fiche organise. WhatsApp garde le contact direct. DIGIYLYFE prélève 0 % de commission.
+Facebook et TikTok diffusent. La fiche DIGIYLYFE organise. WhatsApp garde le contact direct. Le professionnel reste maître de sa clientèle.
