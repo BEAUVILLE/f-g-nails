@@ -40,3 +40,4 @@ document.addEventListener('click',e=>{if(e.target.closest('[data-fg-langbar] but
 new MutationObserver(apply).observe(document.documentElement,{attributes:true,attributeFilter:['lang','dir']});
 setTimeout(apply,80);setTimeout(apply,500);
 })();
+(()=>{if(document.querySelector('script[data-fg-media]'))return;const s=document.createElement('script');s.src='assets/js/fg-media.js?v=20260806-v1';s.defer=true;s.dataset.fgMedia='1';document.head.appendChild(s)})();
