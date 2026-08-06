@@ -30,6 +30,16 @@
       "active": true
     },
     {
+      "id": "soin-ventre-fg-nails",
+      "title": "Massage modelant & soin silhouette — ventre",
+      "description": "Séance réalisée chez FG NAILS et publiée avec l’autorisation de la cliente. Prestation esthétique et de bien-être sur rendez-vous. Les résultats peuvent varier selon les personnes.",
+      "driveUrl": "https://drive.google.com/file/d/1S28CTka6Ts5kb08pRkT0DohizcDdaB4b/view?usp=sharing",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1S28CTka6Ts5kb08pRkT0DohizcDdaB4b&sz=w800",
+      "category": "Massage modelant & soin silhouette",
+      "active": true,
+      "authorization": "cliente autorisée"
+    },
+    {
       "id": "soin-visage-fg-nails",
       "title": "Soin complet du visage",
       "description": "Vidéo longue conservée en attente d’un montage court professionnel.",
@@ -46,15 +56,6 @@
       "category": "Pédicure",
       "active": false,
       "status": "montage requis"
-    },
-    {
-      "id": "soin-ventre-fg-nails",
-      "title": "Soin silhouette — séance sur le ventre",
-      "description": "Publication suspendue jusqu’à confirmation de l’autorisation de la cliente visible.",
-      "driveUrl": "https://drive.google.com/file/d/1S28CTka6Ts5kb08pRkT0DohizcDdaB4b/view?usp=sharing",
-      "category": "Soin silhouette",
-      "active": false,
-      "status": "autorisation cliente requise"
     }
   ]
 }
