@@ -41,3 +41,4 @@ new MutationObserver(apply).observe(document.documentElement,{attributes:true,at
 setTimeout(apply,80);setTimeout(apply,500);
 })();
 (()=>{if(document.querySelector('script[data-fg-media]'))return;const s=document.createElement('script');s.src='assets/js/fg-media.js?v=20260806-v2';s.defer=true;s.dataset.fgMedia='1';document.head.appendChild(s)})();
+(()=>{if(document.querySelector('script[data-fg-lg21]'))return;const s=document.createElement('script');s.src='assets/js/fg-media-lg21.js?v=20260807-v1';s.defer=true;s.dataset.fgLg21='1';document.head.appendChild(s)})();
