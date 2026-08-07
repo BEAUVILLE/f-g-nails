@@ -1,7 +1,16 @@
 {
-  "updated_at": "2026-08-06",
+  "updated_at": "2026-08-07",
   "policy": "Seules les réalisations originales FG NAILS sont publiées. Les contenus extérieurs sont écartés. Les médias en attente de montage ou d’autorisation restent inactifs.",
   "videos": [
+    {
+      "id": "sauna-pedicure-fg-nails",
+      "title": "Sauna & pédicure chez FG NAILS",
+      "description": "Découverte du sauna, de l’espace détente et de la prestation pédicure FG NAILS à Saly.",
+      "driveUrl": "https://drive.google.com/file/d/1iAEtdLWG6z5lbvQAm1gOq4hwHxGxusun/view?usp=sharing",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1iAEtdLWG6z5lbvQAm1gOq4hwHxGxusun&sz=w800",
+      "category": "Sauna & pédicure",
+      "active": true
+    },
     {
       "id": "soin-levres-fg-nails",
       "title": "Soin des lèvres chez FG NAILS",
