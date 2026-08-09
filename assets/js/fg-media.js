@@ -16,9 +16,9 @@ const V=[
 ['1QBpIFbFsiVAfjaEpLP0DO7idGm-7LEOy','back_title','back_desc','Soin silhouette dos FG NAILS'],
 ['1S28CTka6Ts5kb08pRkT0DohizcDdaB4b','belly_title','belly_desc','Massage modelant ventre FG NAILS']];
 const P=[
-['assets/products/karite-avocat.svg','avocado','pommade karité et avocat'],
-['assets/products/karite-moringa.svg','moringa','pommade karité et moringa'],
-['assets/products/karite-curcuma.svg','turmeric','pommade karité et curcuma']];
+['assets/products/karite-avocat.jpg','avocado','pommade karité et avocat'],
+['assets/products/karite-moringa.jpg','moringa','pommade karité et moringa'],
+['assets/products/karite-curcuma.jpg','turmeric','pommade karité et curcuma']];
 function lang(){try{const x=FG_I18N.getLang();if(L.includes(x))return x}catch(_){ }const x=(document.documentElement.lang||'fr').slice(0,2);return L.includes(x)?x:'fr'}
 function video([id,title,desc,alt]){const u=`https://drive.google.com/file/d/${id}/view?usp=sharing`,img=`https://drive.google.com/thumbnail?id=${id}&sz=w800`;return `<article class="fgm-card"><a class="fgm-thumb" href="${u}" target="_blank" rel="noopener"><img src="${img}" alt="${alt}" loading="lazy"><span class="fgm-play">▶</span></a><div class="fgm-body"><h3 data-fgm="${title}"></h3><p data-fgm="${desc}"></p><a class="fgm-action" href="${u}" target="_blank" rel="noopener" data-fgm="open_video"></a></div></article>`}
 function product([img,key,label]){const msg=encodeURIComponent(`Bonjour FG NAILS, je souhaite connaître le prix et la disponibilité de la ${label}.`);return `<article class="fgm-card fgm-product"><div class="fgm-thumb"><img src="${img}" alt="${label}" loading="lazy"></div><div class="fgm-body"><h3 data-fgm="${key}"></h3><b class="fgm-price" data-fgm="price"></b><a class="fgm-action" href="https://wa.me/221780127062?text=${msg}" target="_blank" rel="noopener" data-fgm="ask"></a></div></article>`}
