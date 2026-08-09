@@ -5,11 +5,7 @@ function arrange(){
   const work=document.getElementById('realisations');
   const shop=document.getElementById('boutique');
   if(!wrap||!work||!shop)return false;
-  if(window.matchMedia('(max-width:619px)').matches){
-    if(wrap.firstElementChild!==shop)wrap.insertBefore(shop,work);
-  }else{
-    if(work.nextElementSibling!==shop)wrap.insertBefore(shop,work.nextSibling);
-  }
+  if(wrap.firstElementChild!==shop)wrap.insertBefore(shop,work);
   return true;
 }
 function boot(){
@@ -18,6 +14,5 @@ function boot(){
 }
 document.addEventListener('DOMContentLoaded',boot,{once:true});
 window.addEventListener('load',arrange,{once:true});
-window.addEventListener('resize',()=>setTimeout(arrange,50));
 setTimeout(boot,0);
 })();
