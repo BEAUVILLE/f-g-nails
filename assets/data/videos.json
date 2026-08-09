@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07",
+  "updated_at": "2026-08-09",
   "policy": "Seules les réalisations originales FG NAILS sont publiées. Les contenus extérieurs sont écartés. Les médias en attente de montage ou d’autorisation restent inactifs.",
   "videos": [
     {
@@ -47,6 +47,44 @@
       "category": "Massage modelant & soin silhouette",
       "active": true,
       "authorization": "cliente autorisée"
+    },
+    {
+      "id": "fg-nails21-soin-visage",
+      "title": "Soin complet du visage — séance 1",
+      "description": "Soin du visage réalisé chez FG NAILS et publié avec l’autorisation de la cliente.",
+      "driveUrl": "https://drive.google.com/file/d/1yNeg3Y62bp3Og6FARbiAysBEmJAJYbmA/view?usp=sharing",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1yNeg3Y62bp3Og6FARbiAysBEmJAJYbmA&sz=w800",
+      "category": "Soins du visage",
+      "active": true,
+      "authorization": "cliente autorisée"
+    },
+    {
+      "id": "fg-nails22-soin-visage",
+      "title": "Soin complet du visage — séance 2",
+      "description": "Suite du soin du visage réalisé chez FG NAILS et publié avec l’autorisation de la cliente.",
+      "driveUrl": "https://drive.google.com/file/d/1CcWJS06asHRL8T7JfhkxEJu5MvSNwSu4/view?usp=sharing",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1CcWJS06asHRL8T7JfhkxEJu5MvSNwSu4&sz=w800",
+      "category": "Soins du visage",
+      "active": true,
+      "authorization": "cliente autorisée"
+    },
+    {
+      "id": "fg-nails23-sauna-dome",
+      "title": "Sauna dôme",
+      "description": "Séance de sauna dôme proposée chez FG NAILS à Saly, sur rendez-vous.",
+      "driveUrl": "https://drive.google.com/file/d/1MHnffpC-V2k_9wwT-b-hLvyIo0QLXRAk/view?usp=sharing",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1MHnffpC-V2k_9wwT-b-hLvyIo0QLXRAk&sz=w800",
+      "category": "Sauna dôme",
+      "active": true
+    },
+    {
+      "id": "fg-nails24-soins-pieds",
+      "title": "Soin des pieds",
+      "description": "Soin des pieds réalisé chez FG NAILS à Saly, sur rendez-vous.",
+      "driveUrl": "https://drive.google.com/file/d/1q4Mu9pyfeJbjyp4csGQC6_seWv1K2TSh/view?usp=sharing",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1q4Mu9pyfeJbjyp4csGQC6_seWv1K2TSh&sz=w800",
+      "category": "Pédicure & soins des pieds",
+      "active": true
     },
     {
       "id": "soin-visage-fg-nails",
