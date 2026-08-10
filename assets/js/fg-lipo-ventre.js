@@ -3,7 +3,7 @@
 const LANGS=['fr','en','es','de','it','nl','ar'];
 const TEXT={
   fr:{name:'Lipocavitation ventre',desc:'Soin esthétique ciblé sur le ventre.',lead:'Onglerie, soins de beauté, massage modelant, lipocavitation ventre et produits d’hygiène pour femmes et hommes.'},
-  en:{name:'Abdominal lipocavitation',desc:'Aesthetic treatment targeting the abdomen.',lead:'Nail care, beauty treatments, body massage, abdominal lipocavitation and hygiene products for women and men.'},
+  en:{name:'Abdominal lipocavitation',desc:'Aesthetic treatment targeting the abdomen.',lead:'Nail care, beauty treatments, body massage, abdominal lipocavitation ventre and hygiene products for women and men.'},
   es:{name:'Lipocavitación abdominal',desc:'Tratamiento estético dirigido al abdomen.',lead:'Manicura, cuidados de belleza, masaje modelador, lipocavitación abdominal y productos de higiene para mujeres y hombres.'},
   de:{name:'Lipokavitation am Bauch',desc:'Ästhetische Behandlung für den Bauchbereich.',lead:'Nagelpflege, Schönheitspflege, Modellagemassage, Lipokavitation am Bauch und Hygieneprodukte für Frauen und Männer.'},
   it:{name:'Lipocavitazione addominale',desc:'Trattamento estetico mirato all’addome.',lead:'Unghie, trattamenti di bellezza, massaggio modellante, lipocavitazione addominale e prodotti per l’igiene di donne e uomini.'},
@@ -43,5 +43,5 @@ setTimeout(apply,80);setTimeout(apply,500);
 (()=>{if(document.querySelector('script[data-fg-media]'))return;const s=document.createElement('script');s.src='assets/js/fg-media.js?v=20260809-v3';s.defer=true;s.dataset.fgMedia='1';document.head.appendChild(s)})();
 (()=>{if(document.querySelector('script[data-fg-lg21]'))return;const s=document.createElement('script');s.src='assets/js/fg-media-lg21.js?v=20260809-v2';s.defer=true;s.dataset.fgLg21='1';document.head.appendChild(s)})();
 (()=>{if(document.querySelector('script[data-fg-lg25]'))return;const s=document.createElement('script');s.src='assets/js/fg-media-lg25.js?v=20260810-v1';s.defer=true;s.dataset.fgLg25='1';document.head.appendChild(s)})();
-(()=>{if(document.querySelector('script[data-fg-voice]'))return;const s=document.createElement('script');s.src='assets/js/fg-voice.js?v=20260810-v1';s.defer=true;s.dataset.fgVoice='1';document.head.appendChild(s)})();
+(()=>{if(document.querySelector('script[data-fg-voice]'))return;const s=document.createElement('script');s.src='assets/js/fg-voice.js?v=20260810-v2';s.defer=true;s.dataset.fgVoice='1';document.head.appendChild(s)})();
 (()=>{if(document.querySelector('script[data-fg-mobile-products]'))return;const s=document.createElement('script');s.src='assets/js/fg-mobile-products.js?v=20260809-v2';s.defer=true;s.dataset.fgMobileProducts='1';document.head.appendChild(s)})();
