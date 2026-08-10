@@ -1,47 +1,19 @@
 (()=>{
 'use strict';
 const LANGS=['fr','en','es','de','it','nl','ar'];
-const VIDEO={id:'1FudDU_2XtZ3iM5jPQArVNkq1B2DT7F3g',tag:'lg-nails25',alt:'Head Spa et soin du cuir chevelu FG NAILS'};
+const VIDEO={id:'1FudDU_2XtZ3iM5jPQArVNkq1B2DT7F3g',tag:'lg-nails25',alt:'Sauna et soins des cheveux FG NAILS'};
 const TEXT={
-  fr:{lead:'Dix contenus originaux. Les vidéos s’ouvrent sur Google Drive uniquement à la demande.',title:'Head Spa & soin du cuir chevelu',desc:'Séance de Head Spa avec observation visuelle du cuir chevelu, soin nettoyant et vapeur chez FG NAILS à Saly, sur rendez-vous.',action:'Voir la vidéo'},
-  en:{lead:'Ten original pieces of content. Videos open on Google Drive only when requested.',title:'Head Spa & scalp care',desc:'Head Spa session with visual scalp observation, cleansing care and steam at FG NAILS in Saly, by appointment.',action:'Watch the video'},
-  es:{lead:'Diez contenidos originales. Los vídeos se abren en Google Drive solo cuando el cliente lo solicita.',title:'Head Spa y cuidado del cuero cabelludo',desc:'Sesión de Head Spa con observación visual del cuero cabelludo, cuidado de limpieza y vapor en FG NAILS en Saly, con cita previa.',action:'Ver el vídeo'},
-  de:{lead:'Zehn originale Inhalte. Videos werden nur auf Wunsch in Google Drive geöffnet.',title:'Head Spa & Kopfhautpflege',desc:'Head-Spa-Sitzung mit visueller Betrachtung der Kopfhaut, Reinigungspflege und Dampf bei FG NAILS in Saly, nach Termin.',action:'Video ansehen'},
-  it:{lead:'Dieci contenuti originali. I video si aprono su Google Drive solo su richiesta.',title:'Head Spa e cura del cuoio capelluto',desc:'Seduta Head Spa con osservazione visiva del cuoio capelluto, trattamento detergente e vapore presso FG NAILS a Saly, su appuntamento.',action:'Guarda il video'},
-  nl:{lead:'Tien originele items. Video’s openen alleen op verzoek in Google Drive.',title:'Head spa & hoofdhuidverzorging',desc:'Head-spasessie met visuele observatie van de hoofdhuid, reinigende verzorging en stoom bij FG NAILS in Saly, op afspraak.',action:'Video bekijken'},
-  ar:{lead:'عشرة محتويات أصلية. تُفتح الفيديوهات على Google Drive عند الطلب فقط.',title:'سبا الرأس والعناية بفروة الرأس',desc:'جلسة سبا للرأس مع ملاحظة بصرية لفروة الرأس وعناية تنظيف وبخار لدى FG NAILS في سالي، بموعد مسبق.',action:'مشاهدة الفيديو'}
+  fr:{lead:'Dix contenus originaux. Les vidéos s’ouvrent sur Google Drive uniquement à la demande.',title:'Sauna & soins des cheveux',desc:'Séance de sauna et soins des cheveux avec observation visuelle du cuir chevelu, soin nettoyant et vapeur chez FG NAILS à Saly, sur rendez-vous.',action:'Voir la vidéo'},
+  en:{lead:'Ten original pieces of content. Videos open on Google Drive only when requested.',title:'Hair sauna & scalp care',desc:'Hair sauna session with visual scalp observation, cleansing care and steam at FG NAILS in Saly, by appointment.',action:'Watch the video'},
+  es:{lead:'Diez contenidos originales. Los vídeos se abren en Google Drive solo cuando el cliente lo solicita.',title:'Sauna y cuidado del cabello',desc:'Sesión de sauna para el cabello con observación visual del cuero cabelludo, cuidado de limpieza y vapor en FG NAILS en Saly, con cita previa.',action:'Ver el vídeo'},
+  de:{lead:'Zehn originale Inhalte. Videos werden nur auf Wunsch in Google Drive geöffnet.',title:'Haarsauna & Kopfhautpflege',desc:'Haarsauna mit visueller Betrachtung der Kopfhaut, Reinigungspflege und Dampf bei FG NAILS in Saly, nach Termin.',action:'Video ansehen'},
+  it:{lead:'Dieci contenuti originali. I video si aprono su Google Drive solo su richiesta.',title:'Sauna e cura dei capelli',desc:'Seduta sauna per capelli con osservazione visiva del cuoio capelluto, trattamento detergente e vapore presso FG NAILS a Saly, su appuntamento.',action:'Guarda il video'},
+  nl:{lead:'Tien originele items. Video’s openen alleen op verzoek in Google Drive.',title:'Haarsauna & hoofdhuidverzorging',desc:'Haarsaunasessie met visuele observatie van de hoofdhuid, reinigende verzorging en stoom bij FG NAILS in Saly, op afspraak.',action:'Video bekijken'},
+  ar:{lead:'عشرة محتويات أصلية. تُفتح الفيديوهات على Google Drive عند الطلب فقط.',title:'ساونا وعناية بالشعر',desc:'جلسة ساونا للشعر مع ملاحظة بصرية لفروة الرأس وعناية تنظيف وبخار لدى FG NAILS في سالي، بموعد مسبق.',action:'مشاهدة الفيديو'}
 };
-function lang(){
-  try{const x=window.FG_I18N&&FG_I18N.getLang&&FG_I18N.getLang();if(LANGS.includes(x))return x}catch(_){ }
-  const x=(document.documentElement.lang||'fr').slice(0,2).toLowerCase();
-  return LANGS.includes(x)?x:'fr';
-}
-function makeCard(){
-  const url=`https://drive.google.com/file/d/${VIDEO.id}/view?usp=sharing`;
-  const img=`https://drive.google.com/thumbnail?id=${VIDEO.id}&sz=w800`;
-  const card=document.createElement('article');
-  card.className='fgm-card';
-  card.dataset.fgVideo=VIDEO.tag;
-  card.innerHTML=`<a class="fgm-thumb" href="${url}" target="_blank" rel="noopener"><img src="${img}" alt="${VIDEO.alt}" loading="lazy"><span class="fgm-play">▶</span></a><div class="fgm-body"><h3 data-lg25-title></h3><p data-lg25-desc></p><a class="fgm-action" href="${url}" target="_blank" rel="noopener" data-lg25-action></a></div>`;
-  return card;
-}
-function apply(){
-  const grid=document.querySelector('#realisations .fgm-grid');
-  if(!grid)return false;
-  const t=TEXT[lang()]||TEXT.fr;
-  let card=document.querySelector(`[data-fg-video="${VIDEO.tag}"]`);
-  if(!card){card=makeCard();grid.appendChild(card)}
-  card.querySelector('[data-lg25-title]').textContent=t.title;
-  card.querySelector('[data-lg25-desc]').textContent=t.desc;
-  card.querySelector('[data-lg25-action]').textContent=t.action;
-  const lead=document.querySelector('#realisations [data-fgm="media_lead"]');
-  if(lead)lead.textContent=t.lead;
-  return true;
-}
+function lang(){try{const x=window.FG_I18N&&FG_I18N.getLang&&FG_I18N.getLang();if(LANGS.includes(x))return x}catch(_){ }const x=(document.documentElement.lang||'fr').slice(0,2).toLowerCase();return LANGS.includes(x)?x:'fr'}
+function makeCard(){const url=`https://drive.google.com/file/d/${VIDEO.id}/view?usp=sharing`,img=`https://drive.google.com/thumbnail?id=${VIDEO.id}&sz=w800`;const card=document.createElement('article');card.className='fgm-card';card.dataset.fgVideo=VIDEO.tag;card.innerHTML=`<a class="fgm-thumb" href="${url}" target="_blank" rel="noopener"><img src="${img}" alt="${VIDEO.alt}" loading="lazy"><span class="fgm-play">▶</span></a><div class="fgm-body"><h3 data-lg25-title></h3><p data-lg25-desc></p><a class="fgm-action" href="${url}" target="_blank" rel="noopener" data-lg25-action></a></div>`;return card}
+function apply(){const grid=document.querySelector('#realisations .fgm-grid');if(!grid)return false;const t=TEXT[lang()]||TEXT.fr;let card=document.querySelector(`[data-fg-video="${VIDEO.tag}"]`);if(!card){card=makeCard();grid.appendChild(card)}card.querySelector('[data-lg25-title]').textContent=t.title;card.querySelector('[data-lg25-desc]').textContent=t.desc;card.querySelector('[data-lg25-action]').textContent=t.action;const lead=document.querySelector('#realisations [data-fgm="media_lead"]');if(lead)lead.textContent=t.lead;return true}
 function boot(){let tries=0;const timer=setInterval(()=>{tries+=1;if(apply()||tries>=50)clearInterval(timer)},100)}
-document.addEventListener('DOMContentLoaded',boot,{once:true});
-window.addEventListener('load',()=>setTimeout(apply,30),{once:true});
-document.addEventListener('click',e=>{if(e.target.closest('[data-fg-langbar] button'))setTimeout(apply,30)},true);
-new MutationObserver(()=>setTimeout(apply,30)).observe(document.documentElement,{attributes:true,attributeFilter:['lang','dir']});
-setTimeout(boot,0);
+document.addEventListener('DOMContentLoaded',boot,{once:true});window.addEventListener('load',()=>setTimeout(apply,30),{once:true});document.addEventListener('click',e=>{if(e.target.closest('[data-fg-langbar] button'))setTimeout(apply,30)},true);new MutationObserver(()=>setTimeout(apply,30)).observe(document.documentElement,{attributes:true,attributeFilter:['lang','dir']});setTimeout(boot,0);
 })();
