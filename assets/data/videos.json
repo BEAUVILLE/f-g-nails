@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-10",
   "policy": "Seules les réalisations originales FG NAILS sont publiées. Les contenus extérieurs sont écartés. Les médias en attente de montage ou d’autorisation restent inactifs.",
   "videos": [
     {
@@ -84,6 +84,15 @@
       "driveUrl": "https://drive.google.com/file/d/1q4Mu9pyfeJbjyp4csGQC6_seWv1K2TSh/view?usp=sharing",
       "thumbnail": "https://drive.google.com/thumbnail?id=1q4Mu9pyfeJbjyp4csGQC6_seWv1K2TSh&sz=w800",
       "category": "Pédicure & soins des pieds",
+      "active": true
+    },
+    {
+      "id": "lg-nails25-head-spa",
+      "title": "Head Spa & soin du cuir chevelu",
+      "description": "Séance de Head Spa avec observation visuelle du cuir chevelu, soin nettoyant et vapeur chez FG NAILS à Saly, sur rendez-vous.",
+      "driveUrl": "https://drive.google.com/file/d/1FudDU_2XtZ3iM5jPQArVNkq1B2DT7F3g/view?usp=sharing",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1FudDU_2XtZ3iM5jPQArVNkq1B2DT7F3g&sz=w800",
+      "category": "Head Spa & cuir chevelu",
       "active": true
     },
     {
