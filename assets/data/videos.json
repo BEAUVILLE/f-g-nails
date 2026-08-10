@@ -2,116 +2,17 @@
   "updated_at": "2026-08-10",
   "policy": "Seules les réalisations originales FG NAILS sont publiées. Les contenus extérieurs sont écartés. Les médias en attente de montage ou d’autorisation restent inactifs.",
   "videos": [
-    {
-      "id": "sauna-pedicure-fg-nails",
-      "title": "Sauna & pédicure chez FG NAILS",
-      "description": "Découverte du sauna, de l’espace détente et de la prestation pédicure FG NAILS à Saly.",
-      "driveUrl": "https://drive.google.com/file/d/1iAEtdLWG6z5lbvQAm1gOq4hwHxGxusun/view?usp=sharing",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1iAEtdLWG6z5lbvQAm1gOq4hwHxGxusun&sz=w800",
-      "category": "Sauna & pédicure",
-      "active": true
-    },
-    {
-      "id": "soin-levres-fg-nails",
-      "title": "Soin des lèvres chez FG NAILS",
-      "description": "Démonstration réalisée dans l’espace FG NAILS à Saly.",
-      "driveUrl": "https://drive.google.com/file/d/1mMsUbtyyvNbZyQ_pG-uxFh2fDmDPdvQr/view?usp=sharing",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1mMsUbtyyvNbZyQ_pG-uxFh2fDmDPdvQr&sz=w800",
-      "category": "Soins esthétiques",
-      "active": true
-    },
-    {
-      "id": "onglerie-fleurs-fg-nails",
-      "title": "Résultat onglerie — décoration florale",
-      "description": "Présentation courte d’une réalisation onglerie FG NAILS.",
-      "driveUrl": "https://drive.google.com/file/d/1hdLKDCt920F16aT0hJE9rsA2oNnz353Q/view?usp=sharing",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1hdLKDCt920F16aT0hJE9rsA2oNnz353Q&sz=w800",
-      "category": "Onglerie",
-      "active": true
-    },
-    {
-      "id": "soin-dos-fg-nails",
-      "title": "Soin silhouette — séance sur le dos",
-      "description": "Séance esthétique réalisée par FG NAILS. Les résultats varient selon les personnes.",
-      "driveUrl": "https://drive.google.com/file/d/1QBpIFbFsiVAfjaEpLP0DO7idGm-7LEOy/view?usp=sharing",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1QBpIFbFsiVAfjaEpLP0DO7idGm-7LEOy&sz=w800",
-      "category": "Soin silhouette",
-      "active": true
-    },
-    {
-      "id": "soin-ventre-fg-nails",
-      "title": "Massage modelant & soin silhouette — ventre",
-      "description": "Séance réalisée chez FG NAILS et publiée avec l’autorisation de la cliente. Prestation esthétique et de bien-être sur rendez-vous. Les résultats peuvent varier selon les personnes.",
-      "driveUrl": "https://drive.google.com/file/d/1S28CTka6Ts5kb08pRkT0DohizcDdaB4b/view?usp=sharing",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1S28CTka6Ts5kb08pRkT0DohizcDdaB4b&sz=w800",
-      "category": "Massage modelant & soin silhouette",
-      "active": true,
-      "authorization": "cliente autorisée"
-    },
-    {
-      "id": "fg-nails21-soin-visage",
-      "title": "Soin complet du visage — séance 1",
-      "description": "Soin du visage réalisé chez FG NAILS et publié avec l’autorisation de la cliente.",
-      "driveUrl": "https://drive.google.com/file/d/1yNeg3Y62bp3Og6FARbiAysBEmJAJYbmA/view?usp=sharing",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1yNeg3Y62bp3Og6FARbiAysBEmJAJYbmA&sz=w800",
-      "category": "Soins du visage",
-      "active": true,
-      "authorization": "cliente autorisée"
-    },
-    {
-      "id": "fg-nails22-soin-visage",
-      "title": "Soin complet du visage — séance 2",
-      "description": "Suite du soin du visage réalisé chez FG NAILS et publié avec l’autorisation de la cliente.",
-      "driveUrl": "https://drive.google.com/file/d/1CcWJS06asHRL8T7JfhkxEJu5MvSNwSu4/view?usp=sharing",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1CcWJS06asHRL8T7JfhkxEJu5MvSNwSu4&sz=w800",
-      "category": "Soins du visage",
-      "active": true,
-      "authorization": "cliente autorisée"
-    },
-    {
-      "id": "fg-nails23-sauna-dome",
-      "title": "Sauna dôme",
-      "description": "Séance de sauna dôme proposée chez FG NAILS à Saly, sur rendez-vous.",
-      "driveUrl": "https://drive.google.com/file/d/1MHnffpC-V2k_9wwT-b-hLvyIo0QLXRAk/view?usp=sharing",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1MHnffpC-V2k_9wwT-b-hLvyIo0QLXRAk&sz=w800",
-      "category": "Sauna dôme",
-      "active": true
-    },
-    {
-      "id": "fg-nails24-soins-pieds",
-      "title": "Soin des pieds",
-      "description": "Soin des pieds réalisé chez FG NAILS à Saly, sur rendez-vous.",
-      "driveUrl": "https://drive.google.com/file/d/1q4Mu9pyfeJbjyp4csGQC6_seWv1K2TSh/view?usp=sharing",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1q4Mu9pyfeJbjyp4csGQC6_seWv1K2TSh&sz=w800",
-      "category": "Pédicure & soins des pieds",
-      "active": true
-    },
-    {
-      "id": "lg-nails25-head-spa",
-      "title": "Head Spa & soin du cuir chevelu",
-      "description": "Séance de Head Spa avec observation visuelle du cuir chevelu, soin nettoyant et vapeur chez FG NAILS à Saly, sur rendez-vous.",
-      "driveUrl": "https://drive.google.com/file/d/1FudDU_2XtZ3iM5jPQArVNkq1B2DT7F3g/view?usp=sharing",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1FudDU_2XtZ3iM5jPQArVNkq1B2DT7F3g&sz=w800",
-      "category": "Head Spa & cuir chevelu",
-      "active": true
-    },
-    {
-      "id": "soin-visage-fg-nails",
-      "title": "Soin complet du visage",
-      "description": "Vidéo longue conservée en attente d’un montage court professionnel.",
-      "driveUrl": "https://drive.google.com/file/d/1kB89M8H-aKz7jmSNDHGkAjlBQiiuJkfg/view?usp=sharing",
-      "category": "Soins esthétiques",
-      "active": false,
-      "status": "montage requis"
-    },
-    {
-      "id": "pedicure-fg-nails",
-      "title": "Pédicure et soin des pieds",
-      "description": "Contenu original conservé en attente de nettoyage et de coupe.",
-      "driveUrl": "https://drive.google.com/file/d/1bv3Xu2_ehITv2-ekct8lKduh5k3T8ji-/view?usp=sharing",
-      "category": "Pédicure",
-      "active": false,
-      "status": "montage requis"
-    }
+    {"id":"sauna-pedicure-fg-nails","title":"Sauna & pédicure chez FG NAILS","description":"Découverte du sauna, de l’espace détente et de la prestation pédicure FG NAILS à Saly.","driveUrl":"https://drive.google.com/file/d/1iAEtdLWG6z5lbvQAm1gOq4hwHxGxusun/view?usp=sharing","thumbnail":"https://drive.google.com/thumbnail?id=1iAEtdLWG6z5lbvQAm1gOq4hwHxGxusun&sz=w800","category":"Sauna & pédicure","active":true},
+    {"id":"soin-levres-fg-nails","title":"Soin des lèvres chez FG NAILS","description":"Démonstration réalisée dans l’espace FG NAILS à Saly.","driveUrl":"https://drive.google.com/file/d/1mMsUbtyyvNbZyQ_pG-uxFh2fDmDPdvQr/view?usp=sharing","thumbnail":"https://drive.google.com/thumbnail?id=1mMsUbtyyvNbZyQ_pG-uxFh2fDmDPdvQr&sz=w800","category":"Soins esthétiques","active":true},
+    {"id":"onglerie-fleurs-fg-nails","title":"Résultat onglerie — décoration florale","description":"Présentation courte d’une réalisation onglerie FG NAILS.","driveUrl":"https://drive.google.com/file/d/1hdLKDCt920F16aT0hJE9rsA2oNnz353Q/view?usp=sharing","thumbnail":"https://drive.google.com/thumbnail?id=1hdLKDCt920F16aT0hJE9rsA2oNnz353Q&sz=w800","category":"Onglerie","active":true},
+    {"id":"soin-dos-fg-nails","title":"Soin silhouette — séance sur le dos","description":"Séance esthétique réalisée par FG NAILS. Les résultats varient selon les personnes.","driveUrl":"https://drive.google.com/file/d/1QBpIFbFsiVAfjaEpLP0DO7idGm-7LEOy/view?usp=sharing","thumbnail":"https://drive.google.com/thumbnail?id=1QBpIFbFsiVAfjaEpLP0DO7idGm-7LEOy&sz=w800","category":"Soin silhouette","active":true},
+    {"id":"soin-ventre-fg-nails","title":"Massage modelant & soin silhouette — ventre","description":"Séance réalisée chez FG NAILS et publiée avec l’autorisation de la cliente. Prestation esthétique et de bien-être sur rendez-vous. Les résultats peuvent varier selon les personnes.","driveUrl":"https://drive.google.com/file/d/1S28CTka6Ts5kb08pRkT0DohizcDdaB4b/view?usp=sharing","thumbnail":"https://drive.google.com/thumbnail?id=1S28CTka6Ts5kb08pRkT0DohizcDdaB4b&sz=w800","category":"Massage modelant & soin silhouette","active":true,"authorization":"cliente autorisée"},
+    {"id":"fg-nails21-soin-visage","title":"Soin complet du visage — séance 1","description":"Soin du visage réalisé chez FG NAILS et publié avec l’autorisation de la cliente.","driveUrl":"https://drive.google.com/file/d/1yNeg3Y62bp3Og6FARbiAysBEmJAJYbmA/view?usp=sharing","thumbnail":"https://drive.google.com/thumbnail?id=1yNeg3Y62bp3Og6FARbiAysBEmJAJYbmA&sz=w800","category":"Soins du visage","active":true,"authorization":"cliente autorisée"},
+    {"id":"fg-nails22-soin-visage","title":"Soin complet du visage — séance 2","description":"Suite du soin du visage réalisé chez FG NAILS et publié avec l’autorisation de la cliente.","driveUrl":"https://drive.google.com/file/d/1CcWJS06asHRL8T7JfhkxEJu5MvSNwSu4/view?usp=sharing","thumbnail":"https://drive.google.com/thumbnail?id=1CcWJS06asHRL8T7JfhkxEJu5MvSNwSu4&sz=w800","category":"Soins du visage","active":true,"authorization":"cliente autorisée"},
+    {"id":"fg-nails23-sauna-dome","title":"Sauna dôme","description":"Séance de sauna dôme proposée chez FG NAILS à Saly, sur rendez-vous.","driveUrl":"https://drive.google.com/file/d/1MHnffpC-V2k_9wwT-b-hLvyIo0QLXRAk/view?usp=sharing","thumbnail":"https://drive.google.com/thumbnail?id=1MHnffpC-V2k_9wwT-b-hLvyIo0QLXRAk&sz=w800","category":"Sauna dôme","active":true},
+    {"id":"fg-nails24-soins-pieds","title":"Soin des pieds","description":"Soin des pieds réalisé chez FG NAILS à Saly, sur rendez-vous.","driveUrl":"https://drive.google.com/file/d/1q4Mu9pyfeJbjyp4csGQC6_seWv1K2TSh/view?usp=sharing","thumbnail":"https://drive.google.com/thumbnail?id=1q4Mu9pyfeJbjyp4csGQC6_seWv1K2TSh&sz=w800","category":"Pédicure & soins des pieds","active":true},
+    {"id":"lg-nails25-head-spa","title":"Sauna & soins des cheveux","description":"Séance de sauna et soins des cheveux avec observation visuelle du cuir chevelu, soin nettoyant et vapeur chez FG NAILS à Saly, sur rendez-vous.","driveUrl":"https://drive.google.com/file/d/1FudDU_2XtZ3iM5jPQArVNkq1B2DT7F3g/view?usp=sharing","thumbnail":"https://drive.google.com/thumbnail?id=1FudDU_2XtZ3iM5jPQArVNkq1B2DT7F3g&sz=w800","category":"Sauna & soins des cheveux","active":true},
+    {"id":"soin-visage-fg-nails","title":"Soin complet du visage","description":"Vidéo longue conservée en attente d’un montage court professionnel.","driveUrl":"https://drive.google.com/file/d/1kB89M8H-aKz7jmSNDHGkAjlBQiiuJkfg/view?usp=sharing","category":"Soins esthétiques","active":false,"status":"montage requis"},
+    {"id":"pedicure-fg-nails","title":"Pédicure et soin des pieds","description":"Contenu original conservé en attente de nettoyage et de coupe.","driveUrl":"https://drive.google.com/file/d/1bv3Xu2_ehITv2-ekct8lKduh5k3T8ji-/view?usp=sharing","category":"Pédicure","active":false,"status":"montage requis"}
   ]
 }
