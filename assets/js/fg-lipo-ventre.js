@@ -3,7 +3,7 @@
 const LANGS=['fr','en','es','de','it','nl','ar'];
 const TEXT={
   fr:{name:'Lipocavitation ventre',desc:'Soin esthétique ciblé sur le ventre.',lead:'Onglerie, soins de beauté, massage modelant, lipocavitation ventre et produits d’hygiène pour femmes et hommes.'},
-  en:{name:'Abdominal lipocavitation',desc:'Aesthetic treatment targeting the abdomen.',lead:'Nail care, beauty treatments, body massage, abdominal lipocavitation ventre and hygiene products for women and men.'},
+  en:{name:'Abdominal lipocavitation',desc:'Aesthetic treatment targeting the abdomen.',lead:'Nail care, beauty treatments, body massage, abdominal lipocavitation and hygiene products for women and men.'},
   es:{name:'Lipocavitación abdominal',desc:'Tratamiento estético dirigido al abdomen.',lead:'Manicura, cuidados de belleza, masaje modelador, lipocavitación abdominal y productos de higiene para mujeres y hombres.'},
   de:{name:'Lipokavitation am Bauch',desc:'Ästhetische Behandlung für den Bauchbereich.',lead:'Nagelpflege, Schönheitspflege, Modellagemassage, Lipokavitation am Bauch und Hygieneprodukte für Frauen und Männer.'},
   it:{name:'Lipocavitazione addominale',desc:'Trattamento estetico mirato all’addome.',lead:'Unghie, trattamenti di bellezza, massaggio modellante, lipocavitazione addominale e prodotti per l’igiene di donne e uomini.'},
