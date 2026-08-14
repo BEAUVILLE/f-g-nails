@@ -1,22 +1,35 @@
-name: Aperçu audit carte FG NAILS
+name: Corriger carte FG NAILS adhérente
 on:
   push:
     branches: [main]
     paths:
       - '.github/workflows/preview-card-audit-temp.yml'
 permissions:
-  contents: read
+  contents: write
 jobs:
-  preview:
+  fix:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Préparer aperçu
+      - name: Corriger la carte
         run: |
           sudo apt-get update >/dev/null
           sudo apt-get install -y imagemagick >/dev/null
-          convert 'fg-nails-carte-officielle.webp' -resize 540x960 -quality 82 preview-fg-nails.jpg
+          convert 'fg-nails-carte-officielle.webp' \
+            -fill '#fff7ea' -stroke '#c89b49' -strokewidth 2 -draw 'roundrectangle 760,1750 1045,1892 26,26' \
+            -fill '#6b4932' -stroke none -font DejaVu-Sans-Bold -pointsize 30 -gravity NorthEast -annotate +84+1778 'ADHÉRENTE' \
+            -fill '#b0792c' -stroke none -font DejaVu-Sans-Bold -pointsize 32 -gravity NorthEast -annotate +86+1825 'DIGIYLYFE' \
+            'fg-nails-carte-new.webp'
+          mv 'fg-nails-carte-new.webp' 'fg-nails-carte-officielle.webp'
+          convert 'fg-nails-carte-officielle.webp' -resize 540x960 -quality 84 preview-fg-nails-corrigee.jpg
       - uses: actions/upload-artifact@v4
         with:
-          name: preview-fg-nails-card
-          path: preview-fg-nails.jpg
+          name: preview-fg-nails-card-corrigee
+          path: preview-fg-nails-corrigee.jpg
+      - name: Publier la carte seulement
+        run: |
+          git config user.name 'DIGIYLYFE Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add fg-nails-carte-officielle.webp
+          git commit -m 'Carte FG NAILS : afficher adhérente DIGIYLYFE' || exit 0
+          git push
