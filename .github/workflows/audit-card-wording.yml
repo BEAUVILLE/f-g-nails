@@ -11,7 +11,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Contrôler le wording FG NAILS
+      - name: Contexte wording FG NAILS
         run: |
-          echo '=== Mentions sensibles dans index.html ==='
-          grep -inoE 'officiel|officielle|vérifi[a-zéèê]*|certifi[a-zéèê]*|garanti[a-zéèê]*|ambassadeur|sélectionné|partenaire|adhérent[a-zéèê]*' index.html | head -120 || true
+          python3 - <<'PY'
+          from pathlib import Path
+          s=Path('index.html').read_text(encoding='utf-8')
+          low=s.lower()
+          for term in ['officielle','officiel','vérifi','certifi','garanti','ambassadeur','sélectionné','partenaire','adhérent']:
+              start=0
+              while True:
+                  i=low.find(term,start)
+                  if i<0: break
+                  print('\nTERM',term,'AT',i)
+                  print(s[max(0,i-180):i+260].replace('\n',' '))
+                  start=i+len(term)
+          PY
