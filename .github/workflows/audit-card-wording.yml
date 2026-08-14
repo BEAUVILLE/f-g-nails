@@ -11,9 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: OCR carte FG NAILS
+      - name: Contrôler le wording FG NAILS
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-fra
-          echo '=== fg-nails-carte-officielle.webp ==='
-          tesseract 'fg-nails-carte-officielle.webp' stdout -l fra+eng 2>/dev/null || true
+          echo '=== Mentions sensibles dans index.html ==='
+          grep -inoE 'officiel|officielle|vérifi[a-zéèê]*|certifi[a-zéèê]*|garanti[a-zéèê]*|ambassadeur|sélectionné|partenaire|adhérent[a-zéèê]*' index.html | head -120 || true
