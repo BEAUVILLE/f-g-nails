@@ -1,0 +1,22 @@
+name: Aperçu audit carte FG NAILS
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/preview-card-audit-temp.yml'
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Préparer aperçu
+        run: |
+          sudo apt-get update >/dev/null
+          sudo apt-get install -y imagemagick >/dev/null
+          convert 'fg-nails-carte-officielle.webp' -resize 540x960 -quality 82 preview-fg-nails.jpg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: preview-fg-nails-card
+          path: preview-fg-nails.jpg
