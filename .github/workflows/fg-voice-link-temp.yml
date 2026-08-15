@@ -25,7 +25,7 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           p = Path('index.html')
-          old = 'https://drive.google.com/file/d/1yNeg3Y62bp3Og6FARbiAysBEmJAJYbmA/view?usp=drive_link'
+          old = 'https://drive.google.com/file/d/1yNeg3Y62bp3Og6FARbiAysBEmJAJYbmA/view?usp=sharing'
           new = 'https://drive.google.com/file/d/1RoqYi3WW7T88tLR5mMOPOPw5f8-jHYSJ/view?usp=drive_link'
           text = p.read_text(encoding='utf-8')
           count = text.count(old)
