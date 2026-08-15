@@ -1,0 +1,51 @@
+name: Remplacer FG-NAILS21 par version voix off
+
+on:
+  push:
+    branches:
+      - fg-voice-link-temp-20260815
+    paths:
+      - '.github/workflows/fg-voice-link-temp.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  replace-link:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout production main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Remplacer uniquement les deux liens FG-NAILS21
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          old = 'https://drive.google.com/file/d/1yNeg3Y62bp3Og6FARbiAysBEmJAJYbmA/view?usp=drive_link'
+          new = 'https://drive.google.com/file/d/1RoqYi3WW7T88tLR5mMOPOPw5f8-jHYSJ/view?usp=drive_link'
+          text = p.read_text(encoding='utf-8')
+          count = text.count(old)
+          if count != 2:
+              raise SystemExit(f'ABORT: expected 2 old links, found {count}')
+          if new in text:
+              raise SystemExit('ABORT: new link already present before replacement')
+          updated = text.replace(old, new)
+          if updated.count(old) != 0 or updated.count(new) != 2:
+              raise SystemExit('ABORT: replacement verification failed')
+          p.write_text(updated, encoding='utf-8')
+          PY
+
+      - name: Vérifier et pousser index.html uniquement
+        run: |
+          test "$(git diff --name-only)" = "index.html"
+          git diff --check
+          git config user.name 'DIGIYLYFE Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add index.html
+          test "$(git diff --cached --name-only)" = "index.html"
+          git commit -m 'Use voiced FG-NAILS21 video [skip ci]'
+          git push origin HEAD:main
